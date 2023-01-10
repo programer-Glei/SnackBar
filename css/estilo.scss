@@ -5,6 +5,19 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size: 62.5%;
+}
+
 body{
     background: #f7edff;
+}
+
+.buttons {
+    margin: 5rem;
+
+    button{
+        background: #333;
+        color: #fff;
+    }
 }
