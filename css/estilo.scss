@@ -37,4 +37,15 @@ body{
     flex-direction: column;
     overflow: hidden;
     padding: 2rem;
+
+    .toast{
+        width: 40rem;
+        height: 8rem;
+        background: #fff;
+        font-weight: 500;
+        margin: 1.5rem 0;
+        box-shadow: 0 0 2rem rgba(0, 0, 0, 0.3);
+        display: flex;
+        align-items: center;
+    }
 }
