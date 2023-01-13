@@ -4,6 +4,9 @@
   font-family: 'Poppins', sans-serif;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  border: none;
+  outline: none;
+  text-decoration: none;
 }
 
 html {
@@ -21,5 +24,14 @@ body {
 .buttons button {
   background: #333;
   color: #fff;
+  width: 12rem;
+  height: 4rem;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+#toastBox {
+  position: absolute;
+  bottom: 3rem;
 }
 /*# sourceMappingURL=estilo.css.map */
