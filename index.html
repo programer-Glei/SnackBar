@@ -9,19 +9,22 @@
 </head>
 <body>
     <div class="buttons">
-        <button onclick="showToast()">Sucesso</button>
-        <button onclick="showToast()">Erro</button>
-        <button onclick="showToast()">Inválido</button>
+        <button onclick="showToast(Msgsucess)">Sucesso</button>
+        <button onclick="showToast(MSgerro)">Erro</button>
+        <button onclick="showToast(MsgInva)">Inválido</button>
     </div>
     <div id="toastBox"></div>
     <script>
 
         let toastBox = document.getElementById("toastBox");
+        let Msgsucess = "submetido com sucesso!"
+        let MSgerro = "Por favor corrija o erro!"
+        let MsgInva = "Entrada inválida, verifique novamente!"
 
-        function showToast() {
+        function showToast(msg) {
            let toast = document.createElement("div");
            toast.classList.add('toast');
-           toast.innerHTML = 'Sucesso';
+           toast.innerHTML = msg;
            toastBox.appendChild(toast)
         }
     </script>
