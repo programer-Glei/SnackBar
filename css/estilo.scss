@@ -49,8 +49,16 @@ body{
         display: flex;
         align-items: center;
 
+        &.error i{
+            color: red;
+        }
+
+        &.invalid i{
+            color: orange;
+        }
+
         i{
-            margin: 0 0.2rem;
+            margin: 0 2rem;
             font-size: 3.5rem;
             color: green;
         }

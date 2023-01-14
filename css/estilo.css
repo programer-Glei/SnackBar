@@ -65,8 +65,16 @@ body {
           align-items: center;
 }
 
+#toastBox .toast.error i {
+  color: red;
+}
+
+#toastBox .toast.invalid i {
+  color: orange;
+}
+
 #toastBox .toast i {
-  margin: 0 0.2rem;
+  margin: 0 2rem;
   font-size: 3.5rem;
   color: green;
 }

@@ -27,6 +27,18 @@
            toast.classList.add('toast');
            toast.innerHTML = msg;
            toastBox.appendChild(toast)
+
+           if(msg.includes('erro')){
+            toast.classList.add('error');
+           }
+
+           if(msg.includes('inválida')){
+            toast.classList.add('invalid');
+           }
+
+           setTimeout(()=>{
+               toast.remove();
+           },6000)
         }
     </script>
 </body>
