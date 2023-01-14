@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <title>SnackBar</title>
 </head>
 <body>
@@ -17,9 +18,9 @@
     <script>
 
         let toastBox = document.getElementById("toastBox");
-        let Msgsucess = "submetido com sucesso!"
-        let MSgerro = "Por favor corrija o erro!"
-        let MsgInva = "Entrada inválida, verifique novamente!"
+        let Msgsucess = '<i class="fa-solid fa-circle-check"></i> submetido com sucesso!';
+        let MSgerro = '<i class="fa-solid fa-circle-xmark"></i>Por favor corrija o erro!';
+        let MsgInva = '<i class="fa-solid fa-circle-exclamation"></i>Entrada inválida, verifique novamente!';
 
         function showToast(msg) {
            let toast = document.createElement("div");
